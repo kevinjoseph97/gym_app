@@ -6,7 +6,7 @@ class ApplicationController < Sinatra::Base
     end
 
     get '/' do 
-        @name = "Kevin"
+       
         erb :home 
     end
 
